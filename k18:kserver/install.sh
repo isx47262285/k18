@@ -14,11 +14,11 @@ kadmin.local -q "addprinc -pw kmarta marta"
 kadmin.local -q "addprinc -pw kmarta marta/admin"
 kadmin.local -q "addprinc -pw kjulia julia"
 kadmin.local -q "addprinc -pw superuser superuser"
-kadmin.local -q "addprinc -pw kuser01 kuser01"
-kadmin.local -q "addprinc -pw kuser02 kuser02"
-kadmin.local -q "addprinc -pw kuser03 kuser03"
+kadmin.local -q "addprinc -pw kuser01 user01"
+kadmin.local -q "addprinc -pw kuser02 user02"
+kadmin.local -q "addprinc -pw kuser03 user03"
 
-kadmin.local -q "addprinc -randkey sshd.edt.org"
+kadmin.local -q "addprinc -randkey host/sshd.edt.org"
 
 
 
